@@ -1,0 +1,12 @@
+@import "variables";
+
+// Configure bootstrap
+// $theme-colors: (
+//   "primary": $color-primary
+// );
+
+// Import bootstrap
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+@import "custom_bootstrap/main";
+
+// Custom styles

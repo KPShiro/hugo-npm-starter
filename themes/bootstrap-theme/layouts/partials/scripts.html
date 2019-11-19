@@ -1,0 +1,11 @@
+{{ $jQuery := resources.Get "node_modules/jquery/dist/jquery.min.js" }}
+<script src="{{ $jQuery.Permalink }}"></script>
+
+{{ $popperJs := resources.Get "node_modules/popper.js/dist/umd/popper.min.js" }}
+<script src="{{ $popperJs.Permalink }}"></script>
+
+{{ $bootstrap := resources.Get "node_modules/bootstrap/dist/js/bootstrap.min.js" }}
+<script src="{{ $bootstrap.Permalink }}"></script>
+
+{{ $fontawesome := resources.Get "node_modules/@fortawesome/fontawesome-free/js/all.js" }}
+<script src="{{ $fontawesome.Permalink }}"></script>

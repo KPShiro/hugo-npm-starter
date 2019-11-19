@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "hugo-npm-starter"
+theme = "bootstrap-theme"
+
+[module]
+    [[module.mounts]]
+        source          = "node_modules"
+        target          = "assets/node_modules"

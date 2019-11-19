@@ -1,0 +1,29 @@
+{
+  "name": "hugo-npm-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "sass --watch --source-map ./themes/bootstrap-theme/src/scss/main.scss ./themes/bootstrap-theme/static/css/main.css",
+    "css:build": "sass --source-map ./themes/bootstrap-theme/src/scss/main.scss ./themes/bootstrap-theme/static/css/main.css",
+    "build:all": "npm run css:build && hugo",
+    "start": "hugo server -D"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KPShiro/hugo-npm-starter.git"
+  },
+  "author": "Kacper Popczyński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KPShiro/hugo-npm-starter/issues"
+  },
+  "homepage": "https://github.com/KPShiro/hugo-npm-starter#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {}
+}
