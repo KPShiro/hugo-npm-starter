@@ -7,7 +7,7 @@
     "css:watch": "sass --watch --source-map ./themes/bootstrap-theme/src/scss/main.scss ./themes/bootstrap-theme/static/css/main.css",
     "css:build": "sass --source-map ./themes/bootstrap-theme/src/scss/main.scss ./themes/bootstrap-theme/static/css/main.css",
     "build:all": "npm run css:build && hugo",
-    "start": "hugo server -D"
+    "start": "hugo server -D --renderToDisk"
   },
   "repository": {
     "type": "git",
